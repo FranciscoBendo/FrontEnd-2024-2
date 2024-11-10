@@ -3,207 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML4</title>
+    <title>Streaming</title>
+    <style>
+        .titulo{
+            text-align: center;
+            color: red;
+        }
 
-    <style type="text/css">
-        .conteiner img{
-            width: 300px;
-            float: left;
-            margin-right: 20px;
+        p{
+            color: white;
+        }
+        nav{
+            background-color: whitesmoke;
+        }
+
+        nav li{
+            display: inline-block;
+        }
+
+        nav li a{
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav li a:hover{
+            background-color: darkred;
+        }
+
+        .dropdown-menu{
+            position: absolute;
+            background-color: whitesmoke;
+            display: none;
+        }
+
+        .dropdown-menu a{
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-menu{
+            display: block;
         }
     </style>
 </head>
-<body>
-    <h1 style="border: 1px solid black;">
-    <ol>
-        <li style="font-size: medium;">Titanic</li>
-        <li style="font-size: medium;">Meu primeiro amor</li>
-        <li style="font-size: medium;">Uma linda mulher</li>
-        
-    </ol>
-    <ol start="10">
-        <li style="font-size: medium;">Exterminador do futuro II</li>
-        <li style="font-size: medium;">De volta para o futuro I, II, III</li>
-        <li style="font-size: medium;">Indiana Jones</li>
-    </ol>
-    <ol start="20">
-        <li style="font-size: medium;">Sexta feira 13</li>
-        <li style="font-size: medium;">A hora do pesadelos</li>
-    </ol>
-    </h1>
-<br>
-<br>
-<br>
 
-    <div class="conteiner">
+<body style="background-color: black;">
+    <h1 class="titulo">STREAMING</h1>
 
-        <img src="C:\Users\Usuário\Pictures\Saved Pictures\Cachorrinho.jpg">
+    <nav>
+        <ul>
+            <li>
+                <a href="">inicio</a>
+            </li>
+            <li class="dropdown">
+                <a href="">categorias</a>
 
-        <p>Com esta página estou mostrando uma forma de colocar um texto entre duas figuras.</p>
-
-        <img src="C:\Users\Usuário\Pictures\Saved Pictures\Cachorrinho.jpg" style="float: right; width: 300px; margin-right: 20px;">
-    </div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <table>
-        <tr>
-            <td><strong>Processador</strong></td>
-            <td><strong>Velocidade (MHz)</strong></td>
-            <td><strong>Preço de lançamento*</strong></td>
-            <td><strong>Data de lançamento</strong></td>
-            <td><strong>Preços em Agosto2000*/</strong></td>
-            <td><strong>Queda %</strong></td>
-        </tr>
-        <tr>
-            <td>AMD K-6</td>
-            <td>200</td>
-            <td>315</td>
-            <td>Abril/97</td>
-            <td>107</td>
-            <td>66</td>
-        </tr>
-        <tr>
-            <td>AMD K-6</td>
-            <td>233</td>
-            <td>437</td>
-            <td>Maio/97</td>
-            <td>284</td>
-            <td>35</td>
-        </tr>
-        <tr>
-            <td>Cyrix 6x86</td>
-            <td>200</td>
-            <td>240</td>
-            <td>Maio/97</td>
-            <td>188</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td>Cyrix 6x86</td>
-            <td>233</td>
-            <td>320</td>
-            <td>Maio/97</td>
-            <td>290</td>
-            <td>9</td>
-        </tr>
-        <tr>
-            <td>Intel Pentium II</td>
-            <td>233</td>
-            <td>636</td>
-            <td>Maio/97</td>
-            <td>530</td>
-            <td>17</td>
-        </tr>
-        <tr>
-            <td>Intel Pentium II</td>
-            <td>266</td>
-            <td>775</td>
-            <td>Maio/97</td>
-            <td>699</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td><small>*Preços FOB da unidade em USS para lotes de mil. o preço no Brasil fica em média 25% mais caro.</small></td>
-            <td><small>Informações retiradas da revista Informática Exame de setembro/1977</small></td>
-        </tr>
-        
-    </table>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p>A queda de preço de três marcas de chips</p>
-<table style="border: 1px solid black;">
-    <tr>
-        <td><strong>Processador</strong></td>
-        <td><strong>Velocidade (MHz)</strong></td>
-        <td><strong>Preço de lançamento*</strong></td>
-        <td><strong>Data de lançamento</strong></td>
-        <td><strong>Preços em Agosto2000*/</strong></td>
-        <td><strong>Queda %</strong></td>
-    </tr>
-    <tr>
-        <td>AMD K-6</td>
-        <td>200</td>
-        <td>315</td>
-        <td>Abril/97</td>
-        <td>107</td>
-        <td>66</td>
-    </tr>
-    <tr>
-        <td>AMD K-6</td>
-        <td>233</td>
-        <td>437</td>
-        <td>Maio/97</td>
-        <td>284</td>
-        <td>35</td>
-    </tr>
-    <tr>
-        <td>Cyrix 6x86</td>
-        <td>200</td>
-        <td>240</td>
-        <td>Maio/97</td>
-        <td>188</td>
-        <td>22</td>
-    </tr>
-    <tr>
-        <td>Cyrix 6x86</td>
-        <td>233</td>
-        <td>320</td>
-        <td>Maio/97</td>
-        <td>290</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>Intel Pentium II</td>
-        <td>233</td>
-        <td>636</td>
-        <td>Maio/97</td>
-        <td>530</td>
-        <td>17</td>
-    </tr>
-    <tr>
-        <td>Intel Pentium II</td>
-        <td>266</td>
-        <td>775</td>
-        <td>Maio/97</td>
-        <td>699</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td><small>*Preços FOB da unidade em USS para lotes de mil. o preço no Brasil fica em média 25% mais caro.</small></td>
-        <td><small>Informações retiradas da revista Informática Exame de setembro/1977</small></td>
-    </tr>
-    
-</table>
+                <div class="dropdown-menu">
+                    <a href="">ação</a>
+                    <a href="">terror</a>
+                    <a href="">romance</a>
+                    <a href="">drama</a>
+                    <a href="">comédia</a>
+                    <a href="">esportes</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <input type="search-txt" type="text" placeholder="procure sua próxima paixão!">
+                    <a href=""></a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <p>Filmes</p>
+    <br>
+    <br>
+    <br>
+    <p>Series</p>
 </body>
 </html>
